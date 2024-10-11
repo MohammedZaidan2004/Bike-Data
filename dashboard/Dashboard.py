@@ -15,7 +15,8 @@ option = st.sidebar.selectbox(
 )
 
 # Load cleaned dataset
-day_df_cleaned = pd.read_csv("C:/Users/masji/OneDrive/Desktop/MLSelfLearn/proyek_analisis_data/dashboard/day_cleaned.csv", parse_dates=["dteday"])
+day_df_cleaned = pd.read_csv("dashboard/day_cleaned.csv", parse_dates=["dteday"])
+
 #day_df_cleaned.info()
 
 # Mengubah dteday ke datetime
